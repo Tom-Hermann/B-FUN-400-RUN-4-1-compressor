@@ -2,9 +2,9 @@
 A nice application to parallel k-means
 
 A pretty basic way to compress image consists in reducing the number of colors it contains.3 steps are needed to do so:
-1. readthe image andextractthe colors of each pixel
-2. clusterthese colors, andreplaceeach color of a given cluster by the mean color of this cluster
-3. indexthe means of the cluster, andcreatethe compressed image.
+1. read the image and extract the colors of each pixel
+2. clusterthese colors, and replace each color of a given cluster by the mean color of this cluster (using K-Mean algorithm)
+3. index the means of the cluster, and create the compressed image.
 
 ## Usage
 
